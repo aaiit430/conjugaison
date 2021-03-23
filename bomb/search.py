@@ -47,4 +47,4 @@ v2 = [i for i in s if s[i]>1000]
 print("@2=",len(v2))
 
 import json
-open("fr-qs.jon","w").write(json.dumps(v+v2))
+open("fr-qs.json","w").write(json.dumps(v+v2))
